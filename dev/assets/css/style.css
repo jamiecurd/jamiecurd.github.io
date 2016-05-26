@@ -30,7 +30,12 @@ a {
 }
 @font-face {
   font-family: 'extrabold';
+<<<<<<< HEAD
   src: url('../font/montserrat/Montserrat-ExtraBold.woff') format('woff');
+=======
+    src: url(../font/Montserrat-ExtraBold.ttf) format('truetype'),
+  src: url('../font/Montserrat-ExtraBold.woff') format('woff');
+>>>>>>> origin/master
 }
 @font-face {
   font-family: 'hairline';
@@ -42,6 +47,7 @@ a {
 }
 @font-face {
   font-family: 'regular';
+<<<<<<< HEAD
   src: url('../font/montserrat/Montserrat-Regular.woff') format('woff');
 }
 @font-face {
@@ -51,6 +57,20 @@ a {
 @font-face {
   font-family: 'ultralight';
   src: url('../font/montserrat/Montserrat-UltraLight.woff') format('woff');
+=======
+  src: url(../font/Montserrat-Regualr.ttf) format('truetype'),
+  src: url('../font/Montserrat-Regular.woff') format('woff');
+}
+@font-face {
+  font-family: 'semibold';
+    src: url(../font/Montserrat-SemiBold.ttf) format('truetype'),
+  src: url('../font/Montserrat-SemiBold.woff') format('woff');
+}
+@font-face {
+  font-family: 'ultralight';
+    src: url(../font/Montserrat-UltraLight.ttf) format('truetype'),
+  src: url('../font/Montserrat-UltraLight.woff') format('woff');
+>>>>>>> origin/master
 }
 
 
