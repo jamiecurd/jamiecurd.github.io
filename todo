@@ -1,0 +1,16 @@
+https://cards-dev.twitter.com/validator
+Image For Media,  280px X 150px
+Add More Font Capabilities 
+Scroll Bar
+Learn?
+Privacy Policy
+Terms??
+Favicon
+image alts
+
+@media (max-width: 700px) {
+   .aboutimage {
+        background-position: left 1000px; 
+        background-size: 100% 500px;
+    }
+}
