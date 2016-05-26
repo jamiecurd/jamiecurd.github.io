@@ -30,6 +30,7 @@ a {
 }
 @font-face {
   font-family: 'extrabold';
+    src: url(../font/Montserrat-ExtraBold.ttf) format('truetype'),
   src: url('../font/Montserrat-ExtraBold.woff') format('woff');
 }
 @font-face {
@@ -47,10 +48,12 @@ a {
 }
 @font-face {
   font-family: 'semibold';
+    src: url(../font/Montserrat-SemiBold.ttf) format('truetype'),
   src: url('../font/Montserrat-SemiBold.woff') format('woff');
 }
 @font-face {
   font-family: 'ultralight';
+    src: url(../font/Montserrat-UltraLight.ttf) format('truetype'),
   src: url('../font/Montserrat-UltraLight.woff') format('woff');
 }
 
