@@ -42,6 +42,7 @@ a {
 }
 @font-face {
   font-family: 'regular';
+  src: url(../font/Montserrat-Regualr.ttf) format('truetype'),
   src: url('../font/Montserrat-Regular.woff') format('woff');
 }
 @font-face {
