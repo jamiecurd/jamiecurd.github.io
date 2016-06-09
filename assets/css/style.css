@@ -1,6 +1,6 @@
 /*Main Styles*/
 html {
-    background-color: #4a4a4a;
+    background-color: #363636;
 }
 
 body {
@@ -75,13 +75,11 @@ a {
        url('../font/montserrat/ultralight.woff') format('woff');
 }
 
-
-
 /*Header*/
 .header {
   position: relative;
   height: 600px;
-  background-image: url(../img/bg.png);
+  background-image: url(../img/bg.jpg);
   background-size: auto 600px;
   background-position: top center;
   background-attachment: fixed;
@@ -463,16 +461,24 @@ a {
     margin-top: 130px;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 1000px) {
    .abouttext { 
        float: left;
        width: 100%;
-       height 500px;
+       height: 400px;
     }
 }
 
-.test {
-    text-indent: 50px; 
+@media (max-width: 1000px) {
+   .aboutimage { 
+       float: left;
+       width: 100%;
+       height: 500px;
+       overflow: hidden;
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: 100% 500px;
+    }
 }
 
 .text1 {
@@ -530,3 +536,95 @@ a {
     text-transform: uppercase;
     font-size: 1.875em;
 }
+
+.text9 {
+    font-family: "extrabold";
+    color: #e1e1e1;
+    text-transform: uppercase;
+    font-size: 1.875em;
+}
+
+.text10 {
+    font-family: "ultralight";
+    color: #e1e1e1;
+    text-transform: uppercase;
+    font-size: 1.875em;
+}
+
+.text11 {
+    font-family: "semibold";
+    color: #e1e1e1;
+    text-transform: uppercase;
+    font-size: 2.5em;
+}
+
+/*Blog (Homepage)*/
+#blog{
+    height: 500px;
+}
+
+.blogimage {
+    height: 500px;
+    background-image: url(../img/bg2.jpg);
+    background-size: 100% 500px;
+    background-repeat: no-repeat;
+    overflow: hidden; 
+    background-position: left;
+    width: 50%;
+}
+
+.blogtext{
+    float: right;
+    text-align: center;
+    line-height: 0.9;
+    width: 50%;
+    height 500px;
+    top: -50%;
+    margin-top: -300px;
+}
+
+@media (max-width: 1000px) {
+   .blogtext { 
+       float: left;
+       width: 100%;
+       height: 400px;   
+       margin-top: -850px;
+    }
+}
+
+@media (max-width: 1000px) {
+   .blogimage { 
+       float: left;
+       width: 100%;
+       height: 500px;
+       overflow: hidden;
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: 100% 500px;
+       margin-top: 500px;
+    }
+}
+
+/*Contact*/
+#contact {
+    height: 650px;
+    width: 100%;
+    
+}
+
+.contacttext {
+    text-align: center;
+}
+
+/*Footer*/
+#footer {
+    background-color: #4a4a4a;
+    height: 50px;
+    width: 100%;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 10px;
+}    
