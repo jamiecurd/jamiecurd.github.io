@@ -9,6 +9,7 @@
 <html lang="en-US" prefix="og: http://ogp.me/ns#">
 <head>
     <title>Your Name | Homepage</title>
+    <meta name="viewport" content="width=device-width" />
     <!-- Fonts And CSS-->
     <link type="text/css" rel="stylesheet" href="assets/css/style.css" />
     <link type="text/css" rel="stylesheet" href="assets/css/reset.css" />
@@ -56,12 +57,12 @@
 <!--About Section-->
 <section id="about">    
     <div class="abouttext">
-        
+        <div class="moveabout">
         <h1><span class="text1">Hey, </span><span class="text2">My name is</span></h1>
         <h1><span class="text3">Your name</span></h1>
         <h1><span class="text4">im </span><span class="text5">15 </span><span class="text4">years old </span><span class="text6">And</span></h1>
         <h1><span class="text7">From </span><span class="text8">PlaceName, </span><span class="text7">CountryName</span></h1>
-        
+        </div>
     </div>
     <!--Image-->
     <div class="right aboutimage"></div>
@@ -86,8 +87,17 @@
     <h1><span class="text1">And,</span><span class="text5"> you</span><span class="text11"> can contact me</span></h1>
     <h1><span class="text11">through this</span><span class="text5"> thing</span></h1>
     </div>
-    
-
+    <br><br><br>
+    <div class="contactfields">
+        <form action="###" method="post">
+        <fieldset>
+        <input type="text" class="contactinput" name="name" placeholder=" Name"><br>
+        <input type="text" class="contactinput" name="email" placeholder=" Email"><br>
+        <input type="text" class="contactinput" name="message" placeholder=" Your Message"><br>
+        <input type="submit" class="inputbutton" name="button">
+        </fieldset>
+        </form>
+    </div>
 </section>
 
 <!--Footer-->
