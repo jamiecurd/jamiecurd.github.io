@@ -484,6 +484,19 @@ a {
     }
 }
 
+@media (max-width: 600px) {
+       .aboutimage { 
+       float: left;
+       width: 100%;
+       height: 250px;
+       overflow: hidden;
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: 100% 250px;
+        margin-top: 30px;
+    }
+}
+
 .text1 {
     font-family: "extrabold";
     color: #e1e1e1;
@@ -644,6 +657,30 @@ a {
 }
 }
 
+@media (max-width: 600px) {
+            .text1 {
+    font-family: "extrabold";
+    color: #e1e1e1;
+    text-transform: uppercase;
+    font-size: 300%;
+        }
+
+        .text2 {
+    font-family: "extrabold";
+    color: #e1e1e1;
+    text-transform: uppercase;
+    font-size: 212.5%;
+        }
+
+        .text5 {
+    font-family: "ultralight";
+    color: #e1e1e1;
+    text-transform: uppercase;
+    font-size: 150%;
+        }
+
+}
+
 /*Blog (Homepage)*/
 #blog{
     height: 500px;
@@ -691,6 +728,28 @@ a {
     }
 }
 
+@media (max-width: 600px) {
+   .blogtext { 
+       float: left;
+       width: 100%;
+       height: 200px;   
+       margin-top: -420px;
+    }
+}
+
+@media (max-width: 600px) {
+   .blogimage { 
+       float: left;
+       width: 100%;
+       height: 250px;
+       overflow: hidden;
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: 100% 250px;
+       margin-top: 250px;
+    }
+}
+
 /*Contact*/
 #contact {
     height: 500px;
@@ -700,10 +759,9 @@ a {
 @media (max-width: 1200px) {
     .contacttext {
         text-align: center;
-        margin-top: -250px;
+        margin-top: 120px;
     }
 }
-
 
 .contacttext {
     text-align: center;
@@ -723,6 +781,10 @@ form{
     margin-left: auto;
     margin-right: auto;
     text-align: left;
+}
+
+@media (max-width: 600px;) {
+
 }
 
 .contactfields input[type="text"],
@@ -768,7 +830,7 @@ form{
   padding: 16px 20px;
   color: #363636;
   font-weight: bold;
-  float: right;
+  float: left;
   cursor: pointer;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -812,10 +874,22 @@ form{
     background-color: #4a4a4a;
     height: 50px;
     width: 100%;
-    margin-top: 1000px;
+    margin-top: 630px;
     }
     
     h1{
+        text-align: center;
+    }
+}
+
+@media (max-width: 600px) {
+   #footer { 
+    background-color: #4a4a4a;
+    height: 50px;
+    width: 100%;
+    margin-top: -50px;
+    }
+        h1{
         text-align: center;
     }
 }
