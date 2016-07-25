@@ -493,7 +493,7 @@ a {
        background-position: center;
        background-repeat: no-repeat;
        background-size: 100% 250px;
-        margin-top: 30px;
+        margin-top: 0px;
     }
 }
 
@@ -773,7 +773,7 @@ a {
 }
 
 fieldset{
-    width: 500px;
+    width: 480px;
 }
 
 form{
@@ -783,8 +783,8 @@ form{
     text-align: left;
 }
 
-@media (max-width: 600px;) {
-
+.messageinput {
+    height: 100px;
 }
 
 .contactfields input[type="text"],
@@ -874,7 +874,7 @@ form{
     background-color: #4a4a4a;
     height: 50px;
     width: 100%;
-    margin-top: 630px;
+    margin-top: 680px;
     }
     
     h1{
@@ -887,7 +887,7 @@ form{
     background-color: #4a4a4a;
     height: 50px;
     width: 100%;
-    margin-top: -50px;
+    margin-top: -20px;
     }
         h1{
         text-align: center;
