@@ -1,0 +1,196 @@
+html {
+  background-color: #333b50;
+}
+
+
+/*Fonts*/
+@font-face {
+    font-family: 'black';
+    src: url('../font/montserrat/black.WOFF') format('woff'), url('../font/montserrat/black.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'bold';
+    src: url('../font/montserrat/bold.WOFF') format('woff'), url('../font/montserrat/bold.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'extrabold';
+    src: url('../font/montserrat/extrabold.woff') format('woff'), url('../font/montserrat/extrabold.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'hairline';
+    src: url('../font/montserrat/hairline.woff') format('woff'), url('../font/montserrat/hairline.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'light';
+    src: url('../font/montserrat/light.woff') format('woff'), url('../font/montserrat/light.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'regular';
+    src: url('../font/montserrat/regular.woff') format('woff'), url('../font/montserrat/regular.woff') format('woff');
+    font-style: normal;
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'semibold';
+    src: url('../font/montserrat/semibold.woff') format('woff'), url('../font/montserrat/semibold.woff') format('woff');
+    font-style: normal;
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'ultralight';
+    src: url('../font/montserrat/ultralight.woff') format('woff'), url('../font/montserrat/ultralight.woff') format('woff');
+}
+
+
+/* Header */
+.header {
+  background-attachment: fixed;
+  background-position: center;
+  background-image: url(../img/bg.jpg);
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-width: 100%;
+  max-width: 1500px;
+  height: 100vh;
+  min-height: 100%;
+  display: table;
+}
+
+.text1 {
+  position: absolute;
+  top: 50vh;
+  left: 20%;
+}
+
+.text2 {
+    font-family: "extrabold";
+    color: #e1e1e1;
+    text-transform: uppercase;
+    font-size: 625%;
+}
+
+.text3 {
+  font-family: "extrabold";
+  color: #61d55e;
+  text-transform: uppercase;
+  font-size: 625%;
+}
+
+.text4 {
+    font-family: "ultralight";
+    color: #e1e1e1;
+    text-transform: uppercase;
+    font-size: 125%;
+    line-height: 50px;
+}
+
+/* About */
+.about {
+  background-attachment: fixed;
+  background-image: url(../img/aboutbg.jpg);
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-width: 50%;
+  max-width: 1500px;
+  height: 100vh;
+  min-height: 100%;
+  display: table;
+  background-position: center;
+}
+
+.text5 {
+  position: absolute;
+  top: 150vh;
+  text-align: center;
+  width: 50%;
+  float: left
+}
+
+.abouttext{
+    float: right;
+    text-align: center;
+    width: 50%;
+    top: 145vh;
+    position: absolute;
+    left: 49vw;
+}
+
+.text6 {
+    font-family: "ultralight";
+    color: #e1e1e1;
+    text-transform: uppercase;
+    font-size: 120%;
+    line-height: 1.5;
+    padding: 0px 15px;
+}
+
+.text7 {
+    font-family: "extrabold";
+    color: #e1e1e1;
+    text-transform: uppercase;
+    font-size: 625%;
+}
+
+/* Work */
+.work {
+  float: right;
+  background-attachment: fixed;
+  background-image: url(../img/workbg.jpg);
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 50%;
+  max-width: 50%;
+  height: 100vh;
+  min-height: 100%;
+  display: table;
+}
+
+.text8 {
+  position: absolute;
+  top: 250vh;
+  text-align: center;
+  width: 49%;
+}
+
+
+/* Contact */
+.contact {
+  float: left;
+  background-attachment: fixed;
+  background-image: url(../img/contactbg.jpg);
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  width: 50%;
+  max-width: 50%;
+  height: 100vh;
+  min-height: 100%;
+  display: table;
+  position: absolute;
+  top: 300vh;
+}
+
+.text10 {
+  top: 50vh;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
